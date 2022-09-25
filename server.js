@@ -13,6 +13,11 @@ app.get("/", (req, res) => {
       date: Date.now(),
       description: "Test Description",
     },
+    {
+      title: "Test Article 2",
+      date: Date.now(),
+      description: "Test Description 2",
+    },
   ];
   res.render("index", { articles: articles });
 });
