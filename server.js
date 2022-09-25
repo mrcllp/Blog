@@ -10,12 +10,12 @@ app.get("/", (req, res) => {
   const articles = [
     {
       title: "Test Article",
-      date: new Date(),
+      createdAt: new Date(),
       description: "Test Description",
     },
     {
       title: "Test Article 2",
-      date: new Date(),
+      createdAt: new Date(),
       description: "Test Description 2",
     },
   ];
